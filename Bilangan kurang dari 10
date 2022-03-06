@@ -1,0 +1,31 @@
+Bahasa C++
+
+#include <iostream>
+int main () {
+ int bilangan = 1;
+ while (bilangan < 10) {
+  std::cout << bilangan << "\n";
+  bilangan++;
+ }
+}
+
+
+
+Bahasa Java
+
+public class Deret {
+ public static void main (string[] args) {
+  int bilangan = 1;
+  while (bilangan < 10) {
+   System.out.println(bilangan);
+   bilangan++;
+ }
+}
+
+
+
+Bahasa Python
+bilangan = 1
+while bilangan < 10:
+ print(bilangan)
+ bilangan += 1
